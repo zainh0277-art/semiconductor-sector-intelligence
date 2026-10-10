@@ -1,0 +1,22 @@
+﻿# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files
+*.log
+*.tmp
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Power BI temporary files
+*.pbit.tmp
